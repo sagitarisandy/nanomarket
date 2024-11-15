@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B14A932CE73D6E009F6CB4 /* nanomarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */; };
+		83B14A952CE73D6F009F6CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14A942CE73D6E009F6CB4 /* ContentView.swift */; };
+		83B14A972CE73D71009F6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B14A962CE73D71009F6CB4 /* Assets.xcassets */; };
+		83B14A9A2CE73D71009F6CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B14A992CE73D71009F6CB4 /* Preview Assets.xcassets */; };
+		83B14AA42CE73D72009F6CB4 /* nanomarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14AA32CE73D72009F6CB4 /* nanomarketTests.swift */; };
+		83B14AAE2CE73D72009F6CB4 /* nanomarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14AAD2CE73D72009F6CB4 /* nanomarketUITests.swift */; };
+		83B14AB02CE73D72009F6CB4 /* nanomarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14AAF2CE73D72009F6CB4 /* nanomarketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83B14AA02CE73D72009F6CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B14A872CE73D6E009F6CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B14A8E2CE73D6E009F6CB4;
+			remoteInfo = nanomarket;
+		};
+		83B14AAA2CE73D72009F6CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83B14A872CE73D6E009F6CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B14A8E2CE73D6E009F6CB4;
+			remoteInfo = nanomarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B14A8F2CE73D6E009F6CB4 /* nanomarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanomarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanomarketApp.swift; sourceTree = "<group>"; };
+		83B14A942CE73D6E009F6CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83B14A962CE73D71009F6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B14A992CE73D71009F6CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83B14A9F2CE73D72009F6CB4 /* nanomarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanomarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B14AA32CE73D72009F6CB4 /* nanomarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanomarketTests.swift; sourceTree = "<group>"; };
+		83B14AA92CE73D72009F6CB4 /* nanomarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanomarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B14AAD2CE73D72009F6CB4 /* nanomarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanomarketUITests.swift; sourceTree = "<group>"; };
+		83B14AAF2CE73D72009F6CB4 /* nanomarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanomarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B14A8C2CE73D6E009F6CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14A9C2CE73D72009F6CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14AA62CE73D72009F6CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B14A862CE73D6E009F6CB4 = {
+			isa = PBXGroup;
+			children = (
+				83B14A912CE73D6E009F6CB4 /* nanomarket */,
+				83B14AA22CE73D72009F6CB4 /* nanomarketTests */,
+				83B14AAC2CE73D72009F6CB4 /* nanomarketUITests */,
+				83B14A902CE73D6E009F6CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B14A902CE73D6E009F6CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B14A8F2CE73D6E009F6CB4 /* nanomarket.app */,
+				83B14A9F2CE73D72009F6CB4 /* nanomarketTests.xctest */,
+				83B14AA92CE73D72009F6CB4 /* nanomarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B14A912CE73D6E009F6CB4 /* nanomarket */ = {
+			isa = PBXGroup;
+			children = (
+				83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */,
+				83B14A942CE73D6E009F6CB4 /* ContentView.swift */,
+				83B14A962CE73D71009F6CB4 /* Assets.xcassets */,
+				83B14A982CE73D71009F6CB4 /* Preview Content */,
+			);
+			path = nanomarket;
+			sourceTree = "<group>";
+		};
+		83B14A982CE73D71009F6CB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83B14A992CE73D71009F6CB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83B14AA22CE73D72009F6CB4 /* nanomarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				83B14AA32CE73D72009F6CB4 /* nanomarketTests.swift */,
+			);
+			path = nanomarketTests;
+			sourceTree = "<group>";
+		};
+		83B14AAC2CE73D72009F6CB4 /* nanomarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83B14AAD2CE73D72009F6CB4 /* nanomarketUITests.swift */,
+				83B14AAF2CE73D72009F6CB4 /* nanomarketUITestsLaunchTests.swift */,
+			);
+			path = nanomarketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B14A8E2CE73D6E009F6CB4 /* nanomarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B14AB32CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarket" */;
+			buildPhases = (
+				83B14A8B2CE73D6E009F6CB4 /* Sources */,
+				83B14A8C2CE73D6E009F6CB4 /* Frameworks */,
+				83B14A8D2CE73D6E009F6CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanomarket;
+			productName = nanomarket;
+			productReference = 83B14A8F2CE73D6E009F6CB4 /* nanomarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83B14A9E2CE73D72009F6CB4 /* nanomarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B14AB62CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarketTests" */;
+			buildPhases = (
+				83B14A9B2CE73D72009F6CB4 /* Sources */,
+				83B14A9C2CE73D72009F6CB4 /* Frameworks */,
+				83B14A9D2CE73D72009F6CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B14AA12CE73D72009F6CB4 /* PBXTargetDependency */,
+			);
+			name = nanomarketTests;
+			productName = nanomarketTests;
+			productReference = 83B14A9F2CE73D72009F6CB4 /* nanomarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83B14AA82CE73D72009F6CB4 /* nanomarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B14AB92CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarketUITests" */;
+			buildPhases = (
+				83B14AA52CE73D72009F6CB4 /* Sources */,
+				83B14AA62CE73D72009F6CB4 /* Frameworks */,
+				83B14AA72CE73D72009F6CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B14AAB2CE73D72009F6CB4 /* PBXTargetDependency */,
+			);
+			name = nanomarketUITests;
+			productName = nanomarketUITests;
+			productReference = 83B14AA92CE73D72009F6CB4 /* nanomarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B14A872CE73D6E009F6CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					83B14A8E2CE73D6E009F6CB4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					83B14A9E2CE73D72009F6CB4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 83B14A8E2CE73D6E009F6CB4;
+					};
+					83B14AA82CE73D72009F6CB4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 83B14A8E2CE73D6E009F6CB4;
+					};
+				};
+			};
+			buildConfigurationList = 83B14A8A2CE73D6E009F6CB4 /* Build configuration list for PBXProject "nanomarket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B14A862CE73D6E009F6CB4;
+			productRefGroup = 83B14A902CE73D6E009F6CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B14A8E2CE73D6E009F6CB4 /* nanomarket */,
+				83B14A9E2CE73D72009F6CB4 /* nanomarketTests */,
+				83B14AA82CE73D72009F6CB4 /* nanomarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B14A8D2CE73D6E009F6CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B14A9A2CE73D71009F6CB4 /* Preview Assets.xcassets in Resources */,
+				83B14A972CE73D71009F6CB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14A9D2CE73D72009F6CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14AA72CE73D72009F6CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B14A8B2CE73D6E009F6CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B14A952CE73D6F009F6CB4 /* ContentView.swift in Sources */,
+				83B14A932CE73D6E009F6CB4 /* nanomarketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14A9B2CE73D72009F6CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B14AA42CE73D72009F6CB4 /* nanomarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B14AA52CE73D72009F6CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B14AB02CE73D72009F6CB4 /* nanomarketUITestsLaunchTests.swift in Sources */,
+				83B14AAE2CE73D72009F6CB4 /* nanomarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B14AA12CE73D72009F6CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B14A8E2CE73D6E009F6CB4 /* nanomarket */;
+			targetProxy = 83B14AA02CE73D72009F6CB4 /* PBXContainerItemProxy */;
+		};
+		83B14AAB2CE73D72009F6CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B14A8E2CE73D6E009F6CB4 /* nanomarket */;
+			targetProxy = 83B14AAA2CE73D72009F6CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83B14AB12CE73D72009F6CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B14AB22CE73D72009F6CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B14AB42CE73D72009F6CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nanomarket/Preview Content\"";
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B14AB52CE73D72009F6CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nanomarket/Preview Content\"";
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B14AB72CE73D72009F6CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nanomarket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nanomarket";
+			};
+			name = Debug;
+		};
+		83B14AB82CE73D72009F6CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nanomarket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nanomarket";
+			};
+			name = Release;
+		};
+		83B14ABA2CE73D72009F6CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nanomarket;
+			};
+			name = Debug;
+		};
+		83B14ABB2CE73D72009F6CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XWMQDMJGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanomarket.nanomarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nanomarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B14A8A2CE73D6E009F6CB4 /* Build configuration list for PBXProject "nanomarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B14AB12CE73D72009F6CB4 /* Debug */,
+				83B14AB22CE73D72009F6CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B14AB32CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B14AB42CE73D72009F6CB4 /* Debug */,
+				83B14AB52CE73D72009F6CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B14AB62CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B14AB72CE73D72009F6CB4 /* Debug */,
+				83B14AB82CE73D72009F6CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B14AB92CE73D72009F6CB4 /* Build configuration list for PBXNativeTarget "nanomarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B14ABA2CE73D72009F6CB4 /* Debug */,
+				83B14ABB2CE73D72009F6CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B14A872CE73D6E009F6CB4 /* Project object */;
+}
