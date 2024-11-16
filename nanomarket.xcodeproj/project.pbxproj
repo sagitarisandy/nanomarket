@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8398B2A02CE8D44100766295 /* MicroUi in Resources */ = {isa = PBXBuildFile; fileRef = 8398B29F2CE8D44100766295 /* MicroUi */; };
+		8398B2A32CE8D50500766295 /* CarouselItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398B2A22CE8D50500766295 /* CarouselItemModel.swift */; };
 		83B14A932CE73D6E009F6CB4 /* nanomarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */; };
 		83B14A952CE73D6F009F6CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B14A942CE73D6E009F6CB4 /* ContentView.swift */; };
 		83B14A972CE73D71009F6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B14A962CE73D71009F6CB4 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8398B29F2CE8D44100766295 /* MicroUi */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MicroUi; sourceTree = "<group>"; };
+		8398B2A22CE8D50500766295 /* CarouselItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemModel.swift; sourceTree = "<group>"; };
 		83B14A8F2CE73D6E009F6CB4 /* nanomarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanomarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanomarketApp.swift; sourceTree = "<group>"; };
 		83B14A942CE73D6E009F6CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8398B2A12CE8D4F100766295 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8398B2A22CE8D50500766295 /* CarouselItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83B14A862CE73D6E009F6CB4 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,8 @@
 		83B14A912CE73D6E009F6CB4 /* nanomarket */ = {
 			isa = PBXGroup;
 			children = (
+				8398B2A12CE8D4F100766295 /* Model */,
+				8398B29F2CE8D44100766295 /* MicroUi */,
 				83B14A922CE73D6E009F6CB4 /* nanomarketApp.swift */,
 				83B14A942CE73D6E009F6CB4 /* ContentView.swift */,
 				83B14A962CE73D71009F6CB4 /* Assets.xcassets */,
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8398B2A02CE8D44100766295 /* MicroUi in Resources */,
 				83B14A9A2CE73D71009F6CB4 /* Preview Assets.xcassets in Resources */,
 				83B14A972CE73D71009F6CB4 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8398B2A32CE8D50500766295 /* CarouselItemModel.swift in Sources */,
 				83B14A952CE73D6F009F6CB4 /* ContentView.swift in Sources */,
 				83B14A932CE73D6E009F6CB4 /* nanomarketApp.swift in Sources */,
 			);
